@@ -30,3 +30,25 @@
 		
 	</ion-slides>
 </ion-content>
+
+<ion-footer>
+	<ion-row class="ion-padding">
+	  <ion-col size="6" class="ion-text-left">
+		<ion-button color="light" fill="outline" (click)="openSignup()">
+		  Sign Up
+		</ion-button>
+	  </ion-col>
+	  <ion-col size="6" class="ion-text-right">
+		<ion-button color="light" fill="outline" (click)="openLogin()">
+		  Log In
+		</ion-button>
+	  </ion-col>
+	  <ion-col size="12" class="ion-text-center ion-margin-top ion-margin-bottom">
+		<ion-text color="light">
+		  By signing up, you agree to our 
+		  <a href="#" (click)="openTerms($event)">Terms of Service</a> and 
+		  <a href="#" (click)="openPrivacy($event)">Privacy Policy</a>.
+		</ion-text>
+	  </ion-col>
+	</ion-row>
+  </ion-footer>

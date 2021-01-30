@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ionic-trillo-a4ecc": {
+      "hosting": {
+        "app": [
+          "ionic-trillo-a4ecc"
+        ]
+      }
+    }
+  }
+}
