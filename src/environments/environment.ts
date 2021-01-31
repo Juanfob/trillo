@@ -5,14 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyB7g9nyRXgDJ5wm9RNsKYNxqAkvAQHUvZo",
-    authDomain: "ionic-trillo-a4ecc.firebaseapp.com",
-    databaseURL: "https://ionic-trillo-a4ecc-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "ionic-trillo-a4ecc",
-    storageBucket: "ionic-trillo-a4ecc.appspot.com",
-    messagingSenderId: "553626356818",
-    appId: "1:553626356818:web:2ef843b219fbbb7edb638b",
-    measurementId: "G-CCFPDXQ350"
+    apiKey: "AIzaSyAgL2zf9g_BS-BvIYJ5ehe2RPnvOnjBzDw",
+    authDomain: "inoictrillo.firebaseapp.com",
+    databaseURL: "https://inoictrillo-default-rtdb.firebaseio.com",
+    projectId: "inoictrillo",
+    storageBucket: "inoictrillo.appspot.com",
+    messagingSenderId: "33744501729",
+    appId: "1:33744501729:web:b716f941d8afe1437170a0"
   }
 };
 

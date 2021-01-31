@@ -8,12 +8,14 @@ import { IntroductionPageRoutingModule } from './introduction-routing.module';
 
 import { IntroductionPage } from './introduction.page';
 
+import { SignupPageModule } from './../signup/signup.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    IntroductionPageRoutingModule
+    IntroductionPageRoutingModule,
+    SignupPageModule
   ],
   declarations: [IntroductionPage]
 })
